@@ -3,6 +3,8 @@ URL_MARKET_STATUS = 'https://api.wazirx.com/api/v2/market-status'
 URL_TICKERS = 'https://api.wazirx.com/api/v2/tickers'
 URL_MARKET_DEPTH = 'https://api.wazirx.com/api/v2/depth?market='
 
+PATH_LOG_ERROR = 'logs/error.log'
+
 # TODO:Update as per your user_agent if the following does not work
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36"
 HEADERS = {
